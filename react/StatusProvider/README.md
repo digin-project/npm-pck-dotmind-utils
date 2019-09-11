@@ -1,7 +1,7 @@
 ## StatusProvider
 
-📄 index.js
-📄 StatusProvider.js
+* 📄 index.js
+* 📄 StatusProvider.js
 
 ---
 

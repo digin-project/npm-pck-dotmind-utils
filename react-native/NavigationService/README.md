@@ -1,7 +1,7 @@
 ## NavigationService
 
-📄 index.js
-📄 NavigationService.js
+* 📄 index.js
+* 📄 NavigationService.js
 
 ---
 

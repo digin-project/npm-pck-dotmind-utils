@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
 
   textContainer: {
     alignItems: 'center',
-    borderRadius: 10,
     flexDirection: 'row',
     position: 'absolute',
     top: 0,

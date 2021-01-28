@@ -21,6 +21,14 @@ function ApiExecutor(executor: Object): ApiExecutorType {
   }
   /* eslint-enable no-param-reassign */
 
+  function getSessionToken() {
+    const token = executor.defaults.headers.common.Authorization
+    if (token === undefined || token === 'Bearer undefined') {
+      return null;
+    }
+    return executor.defaults.headers.common.Authorization;
+  }
+
   function get(url, params, config) {
     return handle(executor.get(url, params, config));
   }
@@ -57,6 +65,7 @@ function ApiExecutor(executor: Object): ApiExecutorType {
     del,
     upload,
     setSessionToken,
+    getSessionToken,
   };
 }
 
